@@ -61,7 +61,7 @@ const alertPromise= ()=>{
 
 const promiseCall=()=>{
     alertPromise().then((data)=>{
-        alert(`Kudos, We done ${data} activities today.... Congrats!`);
+        alert(`We done ${data} activities today.... Congrats!`);
     })
     .catch((err)=>{
         console.log('promise rejected');
@@ -87,5 +87,3 @@ $('#todoList').on('change','.checkbox',function(e){
 
 
 });
-
-
